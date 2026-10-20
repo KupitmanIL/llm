@@ -12,6 +12,7 @@ Rules:
 "arguments": {...}
 }
 - If user's request contains a least one out of the words like exchange, rate, convert, currency, курс, валюта, you must call the get_exchange_rate tool.
+- If user's request contains a least one out of the words like temperature, weather, condition,wind speed, погода, you must call the get_weather tool.
 - If no tool is required, your response must not contain JSON, but only natural language.
 - If you cannot extract both currencies, respond that impossible extract currencies for TOOLS get_exchange_rate.
 """
